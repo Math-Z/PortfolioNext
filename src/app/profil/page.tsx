@@ -198,9 +198,3 @@ export default function ProfilPage() {
         </section>
     );
 }
-
-export async function getStaticProps() {
-    return {
-        props: {}, // pas de données dynamiques ici
-    };
-}
