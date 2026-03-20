@@ -76,10 +76,3 @@ export default function HomePage() {
       </section>
   );
 }
-
-// Cette fonction indique à Next.js de générer le HTML au build
-export async function getStaticProps() {
-  return {
-    props: {}, // pas de données dynamiques ici
-  };
-}

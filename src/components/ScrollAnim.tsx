@@ -8,6 +8,7 @@ export default function ScrollAnimation() {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add("visible");
+                    observer.unobserve(entry.target); // stop d'observer une fois visible
                 }
             });
         }, { threshold: 0.05 });
@@ -15,6 +16,8 @@ export default function ScrollAnimation() {
         document
             .querySelectorAll(".float-on-scroll")
             .forEach((el) => observer.observe(el));
+
+        return () => observer.disconnect(); // cleanup mémoire
     }, []);
 
     return null;
