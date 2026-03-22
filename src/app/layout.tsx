@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-linear-to-br from-black via-indigo-950 to-slate-900 text-indigo-100 antialiased selection:bg-indigo-500 selection:text-white`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-linear-to-br from-slate-800 via-blue-950 to-indigo-900 text-indigo-100 antialiased selection:bg-indigo-500 selection:text-white`}>
       <ScrollAnim/>
       <header className={`border-b border-indigo-900/50 bg-gray-900/70 backdrop-blur-md sticky top-0 z-50`}><Navbar/></header>
       <main className={`mx-auto max-w-7xl p-4 py-12`}>{children}</main>
