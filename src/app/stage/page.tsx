@@ -53,7 +53,7 @@ export default function StagePage() {
                                 <img
                                     src={stage.logo}
                                     alt={`Logo ${stage.entreprise}`}
-                                    className={`h-10 w-auto object-contain shrink-0 opacity-70 ${stage.invertLogo ? "invert" : ""}`}
+                                    className={`h-10 w-auto object-contain shrink-0 ${stage.invertLogo ? "invert" : ""}`}
                                 />
                             )}
                         </div>
