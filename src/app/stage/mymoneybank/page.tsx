@@ -79,8 +79,8 @@ export default function MyMoneyBankPage() {
                     {/* Contexte */}
                     <p className="text-slate-200 leading-relaxed text-sm">
                         Intégré à l'équipe de développement de l'API KSIOP, j'ai participé à l'évolution
-                        de cette API Java / Spring Boot qui alimente le site SOFIGES — un outil métier
-                        utilisé par des professionnels pour consulter et gérer des données clients.
+                        de cette API Java / Spring Boot qui alimente le site SOFIGES, un outil métier
+                        utilisé côté métier (pour le personnel de la banque) pour consulter et gérer des données clients.
                         L'architecture repose sur un pipeline de données Kafka connecté à une BDD SOFIGES,
                         dont les données transitent vers un DataLake structuré en zones Raw, Structured et Consumer
                         avant d'être exposées via une Consumer View PostgreSQL.
@@ -119,7 +119,7 @@ export default function MyMoneyBankPage() {
                             Mon premier ticket consistait à faire évoluer une requête MyBatis (XML traduit
                             automatiquement en Java) pour modifier le comportement d'un endpoint de l'API.
                             Après modification, j'ai validé le résultat via Insomnia en environnement d'intégration,
-                            puis suivi le pipeline CI/CD GitLab jusqu'au déploiement — en respectant les conventions
+                            puis suivi le pipeline CI/CD GitLab jusqu'au déploiement, en respectant les conventions
                             de nommage de l'équipe (ex: DSK-7226).
                         </p>
                     </div>
@@ -207,8 +207,7 @@ export default function MyMoneyBankPage() {
                         </p>
                         <p className="text-slate-200 leading-relaxed text-sm">
                             Face à un blocage lors de l'exécution d'un DAG, j'ai utilisé Datadog pour analyser
-                            les logs d'exécution et tenter d'identifier la cause — un outil davantage orienté DevOps,
-                            peu utilisé au quotidien par les développeurs de l'équipe.
+                            les logs d'exécution et tenter d'identifier la cause, un outil davantage orienté DevOps
                         </p>
                     </div>
 
