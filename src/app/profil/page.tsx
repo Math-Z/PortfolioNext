@@ -134,67 +134,6 @@ export default function ProfilPage() {
 
             </div>
 
-            {/* Projects */}
-            <article className="card float-on-scroll p-8">
-
-                <div className="flex justify-between items-end mb-8">
-                    <h2 className="text-2xl font-bold text-white">
-                        Projets
-                    </h2>
-
-                    <Link
-                        href="/stage"
-                        className="text-sm text-indigo-400 hover:underline"
-                    >
-                        Voir tout →
-                    </Link>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-                    <div className="group relative overflow-hidden rounded-xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 transition-all">
-                        <div className="flex justify-between items-start mb-4">
-              <span className="text-xs font-mono text-indigo-400 px-2 py-1 bg-indigo-500/10 rounded uppercase tracking-tighter">
-                Projet SLAM
-              </span>
-
-                            <span className="text-xs text-slate-500">
-                2025
-              </span>
-                        </div>
-
-                        <h3 className="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">
-                            Lorem Ipsum
-                        </h3>
-
-                        <p className="text-indigo-100/60 text-sm leading-relaxed">
-                            Lorem Ipsum
-                        </p>
-                    </div>
-
-                    <div className="group relative overflow-hidden rounded-xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 transition-all">
-                        <div className="flex justify-between items-start mb-4">
-              <span className="text-xs font-mono text-indigo-400 px-2 py-1 bg-indigo-500/10 rounded uppercase tracking-tighter">
-                Lorem Ipsum
-              </span>
-
-                            <span className="text-xs text-slate-500">
-                2025
-              </span>
-                        </div>
-
-                        <h3 className="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">
-                            Lorem Ipsum
-                        </h3>
-
-                        <p className="text-indigo-100/60 text-sm leading-relaxed">
-                            Lorem Ipsum
-                        </p>
-                    </div>
-
-                </div>
-            </article>
-
         </section>
     );
 }

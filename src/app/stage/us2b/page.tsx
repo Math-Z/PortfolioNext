@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Metadata } from "next";
 import FancyboxWrapper from "@/components/FancyboxWrapper";
+import Gallery from "@/components/Gallery";
 
 export const metadata: Metadata = {
     title: "Stage — Nantes Université / CNRS",
@@ -12,38 +13,13 @@ const techStack = [
     "Cybersécurité"
 ];
 
-type GalleryImage = { src: string; alt: string }
-
-function Gallery({ images, group }: { images: GalleryImage[]; group: string }) {
-    const count = images.length;
-
-    return (
-        <div className={`grid gap-4 ${count === 1 ? "grid-cols-1" : "grid-cols-2"}`}>
-            {images.map((img, i) => (
-                <a
-                    key={i}
-                    data-fancybox={group}
-                    href={img.src}
-                    className={count % 2 !== 0 && i === count - 1 ? "col-span-2" : ""}
-                >
-                    <img
-                        src={img.src}
-                        alt={img.alt}
-                        className="rounded-lg border border-white/10 shadow-2xl w-full cursor-zoom-in hover:border-indigo-500/50 transition-all"
-                    />
-                </a>
-            ))}
-        </div>
-    );
-}
-
 export default function CnrsPage() {
     return (
         <FancyboxWrapper>
             <section className="py-12 space-y-8">
 
-                <Link href="/stage" className="text-sm text-indigo-400 hover:underline">
-                    ← Retour aux stages
+                <Link href="/experience" className="text-sm text-indigo-400 hover:underline">
+                    ← Retour aux projets
                 </Link>
 
                 <article className="card p-6 space-y-6">
