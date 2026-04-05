@@ -33,12 +33,20 @@ const stages = [
 const projets = [
     {
         href: "/projet/discoverapi",
-        date: "2024 — 2025",
+        date: "2025 — 2026",
         duree: "Projet BTS · en équipe",
         titre: "API Ministage",
         desc: "Conception d'une API REST sécurisée pour la gestion et réservation de mini-stages inter-établissements.",
-        stack: ["PHP", "Symfony", "API Platform", "PostgreSQL"],
+        stack: ["PHP", "Symfony", "API Platform", "PostgreSQL", "Twig"],
     },
+    {
+        href: "/projet/discoverweb",
+        date: "2025 — 2026",
+        duree: "Projet BTS · en équipe",
+        titre: "Application Web Ministage",
+        desc: "Conception d'une application web sécurisée pour la gestion et réservation de mini-stages inter-établissements.",
+        stack: ["PHP", "Symfony", "API Platform", "PostgreSQL", "Twig"],
+    }
 ];
 
 export default function ExperiencePage() {
