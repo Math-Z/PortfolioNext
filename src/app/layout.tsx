@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Portfolio",
-    description: "Portfolio",
+    title: {
+        default: "Mathieu Zavazzo — Portfolio BTS SIO SLAM",
+        template: "%s — Mathieu Zavazzo",
+    },
+    description: "Portfolio de Mathieu Zavazzo, étudiant BTS SIO SLAM. Découvrez mes projets, stages et veille technologique.",
     icons: {
         icon: "/fav.svg",
     },

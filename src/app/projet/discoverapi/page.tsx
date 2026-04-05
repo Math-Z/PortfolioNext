@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const techStack = [
     "PHP", "Symfony", "API Platform",
-    "PostgreSQL", "DBeaver", "PHPStorm",
+    "PostgreSQL", "DBeaver", "PHPStorm", "Twig"
 ];
 
 const roles = [
@@ -17,13 +17,6 @@ const roles = [
     { role: "ROLE_PROGRAMMATION", desc: "Gestion des ministages" },
     { role: "ROLE_RESERVATION", desc: "Réservations" },
     { role: "ROLE_CONSULTATION", desc: "Lecture seule" },
-];
-
-const entities = [
-    "Academie", "Etablissement", "TypeEtab",
-    "Formation", "TypeFormation", "Professeur",
-    "Ministage", "Eleve", "Reservation",
-    "Utilisateur", "User", "Profil", "Fonction",
 ];
 
 const endpoints = [
@@ -59,7 +52,7 @@ export default function MinistagePage() {
                     <span className="text-indigo-400 font-mono text-xs uppercase tracking-tighter">
                         Projet BTS SIO SLAM
                     </span>
-                    <p className="text-xs text-slate-500 mb-2">Développement en équipe · 2024 — 2025</p>
+                    <p className="text-xs text-slate-500 mb-2">Développement en équipe · 2025 — 2026</p>
                     <h1 className="text-2xl font-bold text-white">API Ministage</h1>
                     <p className="text-indigo-300 font-medium">
                         Gestion et réservation de mini-stages inter-établissements

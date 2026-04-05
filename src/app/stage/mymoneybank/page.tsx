@@ -21,7 +21,6 @@ const techStack = [
 
 export default function MyMoneyBankPage() {
     return (
-        <FancyboxWrapper>
             <section className="py-12 space-y-8">
 
                 <Link href="/experience" className="text-sm text-indigo-400 hover:underline">
@@ -64,9 +63,11 @@ export default function MyMoneyBankPage() {
                         et l'évolution de l'API pour refléter ces changements sur SOFIGES.
                     </p>
 
+                    <FancyboxWrapper>
                     <Gallery group="archi" images={[
                         { src: "/uploads/stage2/SOFIGES_DATAHUB.jpg", alt: "Schéma architecture SOFIGES / DataHub" },
                     ]} />
+                    </FancyboxWrapper>
 
                     {/* Stack */}
                     <div className="space-y-2">
@@ -100,19 +101,25 @@ export default function MyMoneyBankPage() {
                         </p>
                     </div>
 
+                    <FancyboxWrapper>
                     <Gallery group="ticket1" images={[
                         { src: "/uploads/stage2/1stTicket.png", alt: "Premier ticket attribué" },
                         { src: "/uploads/stage2/codemodifjour1et2.png", alt: "Modification du code XML MyBatis" },
                     ]} />
+                    </FancyboxWrapper>
 
+                    <FancyboxWrapper>
                     <Gallery group="insomnia" images={[
                         { src: "/uploads/stage2/1stTicketResultInsomnia.png", alt: "Test Insomnia après modification" },
                         { src: "/uploads/stage2/CICDetConvention.png", alt: "Pipeline CI/CD GitLab et convention de nommage" },
                     ]} />
+                    </FancyboxWrapper>
 
+                    <FancyboxWrapper>
                     <Gallery group="envs" images={[
                         { src: "/uploads/stage2/dagIntA.png", alt: "Batch lancé en environnement intégration REU" },
                     ]} />
+                    </FancyboxWrapper>
 
                     {/* Section 2 */}
                     <div className="space-y-4">
@@ -130,14 +137,18 @@ export default function MyMoneyBankPage() {
                         </p>
                     </div>
 
+                    <FancyboxWrapper>
                     <Gallery group="jira" images={[
                         { src: "/uploads/stage2/sprint117.png", alt: "Tableau Kanban Jira — sprint 117" },
                         { src: "/uploads/stage2/batchTicket.png", alt: "Ticket de création du DAG de purge" },
                     ]} />
+                    </FancyboxWrapper>
 
+                    <FancyboxWrapper>
                     <Gallery group="signif" images={[
                         { src: "/uploads/stage2/signiftickets.png", alt: "Signification des statuts de tickets" },
                     ]} />
+                    </FancyboxWrapper>
 
                     {/* Section 3 */}
                     <div className="space-y-4">
@@ -157,20 +168,26 @@ export default function MyMoneyBankPage() {
                         </p>
                     </div>
 
+                    <FancyboxWrapper>
                     <Gallery group="sofiges" images={[
                         { src: "/uploads/stage2/SOFIGES.png", alt: "Site SOFIGES — données clients (env. intégration)" },
                     ]} />
+                    </FancyboxWrapper>
 
+                    <FancyboxWrapper>
                     <Gallery group="code" images={[
                         { src: "/uploads/stage2/codeBatch.png", alt: "Code des 3 batchs de purge" },
                         { src: "/uploads/stage2/codeDag.png", alt: "Définition du DAG et ordre d'exécution" },
                     ]} />
+                    </FancyboxWrapper>
 
+                    <FancyboxWrapper>
                     <Gallery group="purge" images={[
                         { src: "/uploads/stage2/11000.png", alt: "11 000 acteurs distincts impactés par la purge" },
                         { src: "/uploads/stage2/PURGE.png", alt: "Requête SQL — état de la purge par date et statut" },
                         { src: "/uploads/stage2/purgePreuv.png", alt: "Preuve de purge effective en environnement recette" },
                     ]} />
+                    </FancyboxWrapper>
 
                     {/* Section 4 */}
                     <div className="space-y-4">
@@ -208,13 +225,14 @@ export default function MyMoneyBankPage() {
                         </p>
                     </div>
 
+                    <FancyboxWrapper>
                     <Gallery group="patrimoine" images={[
                         { src: "/uploads/stage2/CICDetConvention.png", alt: "Convention de nommage et CI/CD GitLab" },
                     ]} />
+                    </FancyboxWrapper>
 
                 </article>
 
             </section>
-        </FancyboxWrapper>
     );
 }
