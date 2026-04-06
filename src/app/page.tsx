@@ -57,7 +57,7 @@ export default function HomePage() {
             </Link>
 
             <Link
-                href="#"
+                href="/veille"
                 className="group p-6 rounded-xl bg-slate-900/40 border border-slate-800 hover:border-indigo-500/50 transition-all flex justify-between items-center"
             >
               <div>
