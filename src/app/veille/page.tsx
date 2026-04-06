@@ -76,6 +76,7 @@ const sources = [
         tags: ["Fuite de données", "Service public", "RGPD", "Exfiltration"],
     },
     {
+        categorie: "Référence",
         titre: "SQL Injection in ORMs 2025: Why Modern Frameworks Still Aren't Safe",
         auteur: "Propel / Aikido Security",
         date: "Août 2025",
