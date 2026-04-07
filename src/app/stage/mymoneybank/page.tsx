@@ -93,7 +93,7 @@ export default function MyMoneyBankPage() {
                             </span>
                         </p>
                         <p className="text-slate-200 leading-relaxed text-sm">
-                            Mon premier ticket consistait à faire évoluer une requête MyBatis (XML traduit
+                            Mon premier ticket consistait à faire évoluer une requête PostgreSQL en MyBatis (XML traduit
                             automatiquement en Java) pour modifier le comportement d'un endpoint de l'API.
                             Après modification, j'ai validé le résultat via Insomnia en environnement d'intégration,
                             puis suivi le pipeline CI/CD GitLab jusqu'au déploiement, en respectant les conventions
@@ -112,12 +112,6 @@ export default function MyMoneyBankPage() {
                     <Gallery group="insomnia" images={[
                         { src: "/uploads/stage2/1stTicketResultInsomnia.png", alt: "Test Insomnia après modification" },
                         { src: "/uploads/stage2/CICDetConvention.png", alt: "Pipeline CI/CD GitLab et convention de nommage" },
-                    ]} />
-                    </FancyboxWrapper>
-
-                    <FancyboxWrapper>
-                    <Gallery group="envs" images={[
-                        { src: "/uploads/stage2/dagIntA.png", alt: "Batch lancé en environnement intégration REU" },
                     ]} />
                     </FancyboxWrapper>
 
@@ -187,6 +181,12 @@ export default function MyMoneyBankPage() {
                         { src: "/uploads/stage2/PURGE.png", alt: "Requête SQL — état de la purge par date et statut" },
                         { src: "/uploads/stage2/purgePreuv.png", alt: "Preuve de purge effective en environnement recette" },
                     ]} />
+                    </FancyboxWrapper>
+
+                    <FancyboxWrapper>
+                        <Gallery group="envs" images={[
+                            { src: "/uploads/stage2/dagIntA.png", alt: "Batch lancé en environnement intégration REU" },
+                        ]} />
                     </FancyboxWrapper>
 
                     {/* Section 4 */}
