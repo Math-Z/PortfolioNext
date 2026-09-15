@@ -57,12 +57,12 @@ export default function HomePage() {
             </Link>
 
             <Link
-                href="/veille"
+                href="/profil"
                 className="group p-6 rounded-xl bg-slate-900/40 border border-slate-800 hover:border-indigo-500/50 transition-all flex justify-between items-center"
             >
               <div>
                 <h4 className="text-xl font-bold text-white group-hover:text-indigo-400 transition-colors">
-                  Veille Technologique
+                  Profil - CV
                 </h4>
               </div>
 

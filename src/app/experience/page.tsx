@@ -141,41 +141,6 @@ export default function ExperiencePage() {
                 </div>
             </div>
 
-            <div className="space-y-3">
-                <h2 className="text-xs font-bold uppercase tracking-widest text-indigo-500">
-                    Tableau de synthèse des compétences E5
-                </h2>
-                <div className="card p-5 space-y-4">
-                    <div className="flex items-center justify-between gap-4">
-                        <div className="space-y-1">
-                            <p className="text-sm font-bold text-white">MathieuZavazzoTableauE5</p>
-                            <p className="text-xs text-slate-500">Tableau de synthèse — BTS SIO SLAM</p>
-                        </div>
-                        <div className="flex gap-2 shrink-0">
-                            <a
-                                href="/uploads/MathieuZavazzoTableauE5.xlsx"
-                                download
-                                className="px-3 py-1.5 bg-white/5 border border-white/10 hover:border-indigo-500/50 text-indigo-200 text-xs font-mono rounded transition-all"
-                            >
-                                .xlsx ↓
-                            </a>
-                            <a
-                                href="/uploads/MathieuZavazzoTableauE5.pdf"
-                                download
-                                className="px-3 py-1.5 bg-white/5 border border-white/10 hover:border-indigo-500/50 text-indigo-200 text-xs font-mono rounded transition-all"
-                            >
-                                .pdf ↓
-                            </a>
-                        </div>
-                    </div>
-                    <iframe
-                        src="/uploads/MathieuZavazzoTableauE5.pdf"
-                        className="w-full rounded-lg border border-white/10"
-                        style={{ height: "600px" }}
-                    />
-                </div>
-            </div>
-
         </section>
     );
 }

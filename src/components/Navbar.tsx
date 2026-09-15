@@ -31,8 +31,7 @@ export default function Navbar() {
 
                 <nav className="hidden md:flex items-center justify-evenly flex-1 max-w-2xl mx-auto">
                     {navLink("/profil", "PROFIL")}
-                    {navLink("/experience", "EXPÉRIENCE")}
-                    {navLink("/veille", "VEILLE")}
+                    {navLink("/experience", "EXPÉRIENCE - PROJETS")}
                 </nav>
 
                 <div className="shrink-0 flex justify-end md:w-12">
@@ -54,8 +53,7 @@ export default function Navbar() {
             {mobileOpen && (
                 <div className="flex flex-col space-y-6 pt-6 pb-4 border-t border-indigo-900/50 mt-4 md:hidden text-center">
                     {navLink("/profil", "PROFIL")}
-                    {navLink("/experience", "EXPÉRIENCE")}
-                    {navLink("/veille", "VEILLE")}
+                    {navLink("/experience", "EXPÉRIENCE - PROJETS")}
                 </div>
             )}
         </div>
