@@ -22,7 +22,7 @@ export default function ProfilPage() {
     return (
         <section className="w-full space-y-12">
 
-            {/* Profile */}
+            
             <article className="card float-on-scroll p-8 sm:p-12">
                 <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
 
@@ -42,9 +42,9 @@ export default function ProfilPage() {
                         </h1>
 
                         <p className="text-lg text-indigo-100/80 leading-relaxed max-w-3xl">
-                            Étudiant en{" "}
+                            Étudiant en troisième année de {" "}
                             <span className="text-indigo-400 font-semibold">
-                BTS SIO spécialité SLAM
+                BUT Informatique parcours Réalisation d'applications : conception, développement, validation.
               </span>.
                             Motivé et toujours désireux d'en apprendre davantage, je poursuis
                             mes études dans le domaine qui me passionne, l'informatique et le
@@ -64,7 +64,7 @@ export default function ProfilPage() {
                 </div>
             </article>
 
-            {/* Skills + Education */}
+            
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
                 {/* Skills */}
@@ -100,7 +100,7 @@ export default function ProfilPage() {
                     </article>
                 </div>
 
-                {/* Education */}
+                {/* Formations */}
                 <div className="space-y-8 text-center lg:text-left">
                     <article className="card float-on-scroll p-8 h-full">
 
@@ -112,12 +112,21 @@ export default function ProfilPage() {
 
                             <div className="border-l-2 border-indigo-500 pl-4">
                                 <h3 className="font-bold text-indigo-100">
+                                    BUT Informatique
+                                </h3>
+                                <p className="text-sm text-indigo-300/60">
+                                    2026 - 2027 - en cours
+                                </p>
+                            </div>
+
+                            <div className="border-l-2 border-slate-700 pl-4 opacity-50">
+                                <h3 className="font-bold text-indigo-100">
                                     BTS SIO SLAM
                                 </h3>
                                 <p className="text-sm text-indigo-300/60">
-                                    2024 - 2026
+                                    Obtenu en 2026
                                 </p>
-                            </div>
+                            </div>                            
 
                             <div className="border-l-2 border-slate-700 pl-4 opacity-50">
                                 <h3 className="font-bold text-indigo-100">
